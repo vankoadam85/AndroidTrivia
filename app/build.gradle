@@ -49,15 +49,19 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     // Kotlin
+    //noinspection GradleDependency
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$version_kotlin"
 
     // Constraint Layout
+    //noinspection GradleDependency
     implementation "androidx.constraintlayout:constraintlayout:$version_constraint_layout"
 
     // Core
+    //noinspection GradleDependency
     implementation "androidx.core:core:$version_core"
 
     // Material Design
+    //noinspection GradleDependency
     implementation "com.google.android.material:material:$version_material"
 
     // Navigation
